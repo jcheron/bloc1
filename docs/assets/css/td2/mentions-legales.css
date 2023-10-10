@@ -13,10 +13,6 @@
     font-weight: bold;
 }
 
-#main-title {
-    margin: auto;
-}
-
 h2::after {
     content: "*";
     color: red;
