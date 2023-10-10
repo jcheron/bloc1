@@ -1,3 +1,30 @@
-body{
+
+.h2-title{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.sous {
+    text-decoration: underline;
+}
+
+.p-title{
+    color: crimson;
+    font-weight: bold;
+}
+
+#main-title {
+    margin: auto;
+}
+
+h2::after {
+    content: "*";
     color: red;
+    font-weight: bolder;
+}
+
+h2:hover{
+    color: red;
+    text-decoration: underline;
+    font-weight: bolder;
 }
